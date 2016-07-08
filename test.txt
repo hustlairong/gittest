@@ -1,0 +1,29 @@
+#! /bin/bash
+echo "enter a num"
+read a
+function calofpara(){
+echo "the amount of para is : $#"
+echo "the string of para is : $@"
+echo "the first para is : $1"
+}
+calofpara $a 
+
+echo "pause"
+
+calnum(){
+echo "enter a num between 1 to 9"
+read b
+echo "enter a num between 1 to 9"
+read c
+if [ $b -gt 0 -a $b -lt 10 ]
+then
+	if [ $c -gt 0 -a $c -lt 10 ]
+	then
+	d=`expr $c + $b`
+	echo "the sun is $d"
+	fi
+fi
+}
+
+calnum
+
