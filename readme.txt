@@ -5,3 +5,4 @@ it is a new branch test
 it is update by dev
 it is also update by master
 it is update to solve bug1
+it is a new test
