@@ -27,3 +27,17 @@ fi
 
 calnum
 
+echo "pause"
+
+testfun(){
+while read keyboard
+do
+        echo " ${keyboard:-"no enter"}"
+        if [ $keyboard = "exit" ]
+        then
+        break
+        fi
+done
+}
+testfun
+
