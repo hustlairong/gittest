@@ -10,8 +10,6 @@ calofpara $a
 
 echo "pause"
 
-echo "pause"
-
 testfun(){
 while read keyboard
 do
