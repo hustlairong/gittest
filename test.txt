@@ -41,3 +41,17 @@ done
 }
 testfun
 
+echo "pause"
+
+newfun(){
+
+echo "enter a num:\c"
+read newnum1
+echo "enter a num:\c"
+read newnum2
+return $(( $newnum1 + $newnum2))
+}
+
+newfun
+ret=$?
+echo "ret=$ret"
