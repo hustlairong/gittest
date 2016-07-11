@@ -55,3 +55,23 @@ done
 }
 
 squ
+
+echo "pause"
+
+calnum(){
+echo "enter a num between 1 to 9"
+read b
+echo "enter a num between 1 to 9"
+read c
+if [ $b -gt 0 -a $b -lt 10 ]
+then
+	if [ $c -gt 0 -a $c -lt 10 ]
+	then
+	d=`expr $c + $b`
+	echo "the sun is $d"
+	fi
+fi
+}
+
+calnum
+
