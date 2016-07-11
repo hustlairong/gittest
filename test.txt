@@ -10,8 +10,6 @@ calofpara $a
 
 echo "pause"
 
-calnum
-
 echo "pause"
 
 testfun(){
