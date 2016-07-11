@@ -41,3 +41,23 @@ done
 }
 testfun
 
+echo "pause"
+
+squ(){
+echo "enter a num"
+read stopnum
+i=1
+for usenum in 1 2 3 4 5 6 7 
+do
+	i=`expr $i + 1`
+	resnum=`expr $usenum \* $usenum`
+	echo $resnum
+	if [ $i -gt 4 ]
+	then
+	echo "stop"
+	break
+	fi	
+done 
+}
+
+squ
